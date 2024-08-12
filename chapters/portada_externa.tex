@@ -1,0 +1,88 @@
+%\documentclass[12pt]{article}
+
+
+% Margins
+%\usepackage[a4paper, left=3cm, right=3cm, top=3cm, bottom=3cm]{geometry}
+
+
+
+\backgroundsetup{
+	scale = 1,
+	angle = 0,
+	opacity = 1,
+	contents = {
+		\includegraphics[width=\paperwidth]{figures/externalCoverBackground.pdf}
+	}
+}
+
+%\AtBeginShipoutFirst{\AtBeginShipoutDiscard}
+% No page numbers
+\pagestyle{empty}
+    \begin{minipage}[H][\textheight][c]{0.15\textwidth}
+        \begin{tcolorbox}[colframe=black, colback=white, rounded corners, boxrule=0.5mm, width=\linewidth, height=\textheight, valign=center]
+            \begin{center}
+                \rotatebox{90}{\large \textbf{Autor}} \\
+                \vspace{2cm}
+                \rotatebox{90}{\large \textbf{Nombre de la tesis}} \\
+                \vspace{2cm}
+                \rotatebox{90}{\large \textbf{Año}} \\
+            \end{center}
+        \end{tcolorbox}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[H][\textheight][c]{0.8\textwidth}
+    
+        \begin{tcolorbox}[colframe=black, colback=white, rounded corners, boxrule=0.5mm, width=\linewidth, height=\textheight, valign=center]
+            \begin{minipage}[t][3cm][c]{0.2\textwidth}
+
+            \vspace{2cm}
+                \includegraphics[width=\linewidth]{figures/logo_UAQ.png} % Replace with the logo of the university
+            \end{minipage}
+            \hfill
+            \begin{minipage}[t][3cm][c]{0.7\textwidth}
+                \begin{center}
+                \vspace{2cm}
+                    {\Large \textbf{Universidad Autónoma de Querétaro}} \\
+                    \vspace{0.2cm}
+                    {\large \textbf{Facultad de \underline{\hspace{3cm}}}} \\
+                \end{center}
+            \end{minipage}
+            
+            \vspace{2cm}
+            
+            \begin{center}
+                {\Large \textbf{Título del tema de tesis registrado}} \\
+                \vspace{1cm}
+                {\Large \textbf{Tesis}} \\
+                \vspace{0.5cm}
+                {\large Que como parte de los requisitos para obtener el Grado de} \\
+                \vspace{0.5cm}
+                {\large \textbf{Maestro/Doctor en}} \\
+                \vspace{1cm}
+                \hrule height 0.4mm width 9cm
+                \vspace{1cm}
+                {\large Presenta} \\
+                \vspace{0.5cm}
+                {\Large \textbf{Nombre del aspirante}} \\
+            \end{center}
+            
+            \vspace{2cm}
+            
+            \begin{flushleft}
+                \textbf{Dirigido por:} \\
+                \textbf{Nombre completo del Director del Tesis} \\
+                \vspace{0.5cm}
+                \textbf{Co-Director:} \\
+                \textbf{Nombre completo del Co-Director de tesis (en su caso)} \\
+            \end{flushleft}
+            
+            \vfill
+            
+            \begin{flushright}
+                \textbf{Querétaro, Qro. a \underline{\hspace{3cm}}} \\
+            \end{flushright}
+            
+            \vspace{1cm}
+        \end{tcolorbox}
+    \end{minipage}
+
