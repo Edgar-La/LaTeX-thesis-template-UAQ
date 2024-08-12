@@ -1,4 +1,4 @@
-# Plantilla para la escritura de tesis de maestría de la Facultad de Ingeniería, Universidad Autónoma de Querétado
+# Plantilla para la escritura de tesis de maestría de la Facultad de Ingeniería, Universidad Autónoma de Querétaro
 
 Favor de enviar sus comentarios o correcciones a:
 - elara28@alumnos.uaq.mx
